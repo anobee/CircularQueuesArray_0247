@@ -48,4 +48,9 @@ class queues {
             return;
         }
         cout << "\nthe element deleted from queue is :" << queue_array[front] << "\n";
+
+        // cek jika antrian hanya memiliki satu elemen
+        if (front == max -1) 
+            front = 0;
      }
+        else {}
