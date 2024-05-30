@@ -38,9 +38,7 @@ class queues {
             }
             queue_array[rear] = num;
         }
-
-     };
-
+    
      void remove() {
         // cek apakah antrian kosong 
         if (front == -1){
@@ -50,7 +48,18 @@ class queues {
         cout << "\nthe element deleted from queue is :" << queue_array[front] << "\n";
 
         // cek jika antrian hanya memiliki satu elemen
-        if (front == max -1) 
+        if (front == rear ){
+            front = -1;
+            rear =-1;
+        } 
+         
+         else {
+
+            if (front == max -1)
             front = 0;
-     }
-        else {}
+            else
+            front = front + 1;
+            }
+     };
+
+        
