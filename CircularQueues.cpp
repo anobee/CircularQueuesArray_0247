@@ -67,6 +67,14 @@ class queues {
         int rear_position = rear;
 
         // cek apakah antrian kosong
+        if (front_posistion == 1){
+            cout << "queue us empty\n";
+            return;
+        }
+
+        cout << "\nelements in the queue ar...\n";
+        
+        //jika front <= rear, literasi dari front hingga rear
      }
 
         
