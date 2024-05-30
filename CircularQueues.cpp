@@ -34,8 +34,9 @@ class queues {
                 if (rear == max -1)
                 rear = 0;
                 else
-                rear = rear +1;
+                rear = rear + 1;
             }
+            queue_array[rear] = num;
         }
 
      }
