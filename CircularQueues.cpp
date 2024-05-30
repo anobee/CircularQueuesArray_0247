@@ -60,6 +60,14 @@ class queues {
             else
             front = front + 1;
             }
-     };
+     }
+
+     void display(){
+        int front_posistion = front;
+        int rear_position = rear;
+
+        // cek apakah antrian kosong
+     }
 
         
+};
