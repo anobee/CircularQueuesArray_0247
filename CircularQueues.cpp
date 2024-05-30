@@ -24,6 +24,11 @@ class queues {
                 cout << "\n Queue overflow";
                 return ;
             }
+            //cek apakah antrian kosong
+            if (front == -1){
+                front = 0;
+                rear = 0;
+            }
         }
 
      }
